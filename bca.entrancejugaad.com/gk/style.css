@@ -1,0 +1,144 @@
+body{
+    font-family: poppins !important;
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color: #112D4E !important;
+}
+
+.navbar-toggler {
+    background-color: #112D4E !important;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white !important;
+}
+
+.dropdown-menu {
+    background-color: #112D4E !important;
+}
+
+.navbar-nav .active {
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.pagi{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@media(max-width:991px){
+    .nav-link:hover {
+        border-bottom: none !important;
+    }
+    .navbar-nav .active {
+        border-bottom: none !important;
+    }
+    
+    .navbar-nav ul li a:hover {
+        border-bottom: none !important;
+    }
+}
+
+.dropdown-menu > li a:hover
+{ 
+    background: none;
+    border-bottom: none !important;
+}
+/* navbar */
+
+/* margin */
+.margin {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* margin */
+
+
+
+.topic-head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+main{
+    font-family: 'Poppins', sans-serif;
+}
+.mcq-head{
+    font-size: 55px;
+    text-align: center;
+}
+.syllabus-head{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+}
+
+.question__title h1{
+    font-size: 30px;
+}
+
+.section-center h1{
+    padding: 10px 20px;
+}
+.section-center ol{
+    padding: 0px 25px;
+    /* list-style-type: none; */
+}
+.list{
+    /* border: 1px solid black;  */
+    padding: 0px 20px;
+}
+.jawaab{
+    padding: 0px 20px;
+    height: auto;
+}
+.answer{
+    padding: 10px 0px;
+}
+.question__title{
+    padding: 15px;
+    
+}
+.list{
+    padding: 0px 0px 0px 30px;
+}
+.question__options li{
+    padding: 0px 0px 10px 10px;
+    /* font-family:open; */
+}
+.jawaab
+{
+    padding: 0px 0px 0px 30px;
+}
+.answer-button{
+    border-radius: 8px;
+    padding: 8px;
+    border: 0px;
+    color: white;
+    background-color: #112D4E;
+}
+.bread
+{
+    padding: 0px 0px 0px 30px ;
+}
+.breadcrumb li{
+    font-size: 20px;
+}
