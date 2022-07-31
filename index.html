@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <title>Home - Entrance Jugaad</title>
+  </head>
+  <body>
+    <div id="preloader"></div>
+
+<script>
+  window.addEventListener('DOMContentLoaded',function()
+  {
+    loader=document.getElementById('preloader');
+  setTimeout(() => {  
+  $('#preloader').fadeOut('fast');  
+}, 4000);
+
+  })
+  
+</script>
+
+    <!-- navbar -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light stroke">
+      <div class="container-fluid">
+        <div class="logo-div">
+          <a class="navbar-brand text-light" href="./index.html">ENTRANCE JUGAAD</a>
+        </div>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end navibar" id="navbarNavAltMarkup">
+          <div class="navbar-nav navbar">
+            <a class="nav-link text-light active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Preapre for</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="nav-item dropdown" id="myDropdown">
+                <li><a class="dropdown-item text-center text-white" href="https://bca.entrancejugaad.com/">BCA</a></li>
+                <li><a class="dropdown-item text-center text-white" href="https://bba.entrancejugaad.com/">BBA</a></li>
+                <li><a class="dropdown-item text-center text-white" href="https://bcom.entrancejugaad.com/">BCOM</a></li>
+            </ul>
+            <a class="nav-link text-light" href="./about.html">About Us</a>
+            <a class="nav-link text-light" href="./contact-us.html">Contact Us</a>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+  <!-- navbar -->
+
+    <!-- clearfix -->
+    <!-- clearfix for pc -->
+    <div class="margin">
+      <div class="container clearfix-pc">
+        <div class="row">
+          <div class="col-md-6 col-xs-12 text-top-con" data-aos="fade-up">
+            <p class="h1 top-h1">Various Courses One Solution</p>
+            <p>We Provide Resourses / Study Material</p>
+            <div class="wrapper">
+              <div class="search-input">
+                <a href="" target="_blank" hidden></a>
+                <input type="text" placeholder="Search For Courses...">
+                <div class="autocom-box">
+                  <!-- here list are inserted from javascript -->
+                </div>
+                <div class="icon"><i class="fas fa-search"></i></div>
+              </div>
+            </div>
+            <!-- <a href="">
+              <button class="btn get-started">
+                Start Leaning! &nbsp;
+                <i class="fa-solid fa-circle-arrow-right"></i></button
+            ></a> -->
+          </div>
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="imgAbt img-top">
+              
+              <img src="./images/home.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- clearfix for pc -->
+    <!-- clearfix for mobile -->
+    <div class="margin">
+      <div class="container clearfix-mobile">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="imgAbt img-top">
+              <img src="./images/home.png" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12 text-top-con" data-aos="fade-up">
+            <p class="h1 top-h1">Various Courses One Solution</p>
+            <p class="top-p">
+              We provide study material for various entrance exam for various
+              courses.
+            </p>
+            <a href="#choose-section">
+              <button class="btn get-started">
+                Start Leaning! &nbsp;
+                <i class="fa-solid fa-circle-arrow-right"></i></button
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- clearfix for mobile -->
+    <!-- clearfix -->
+
+    <!-- service section -->
+    <div class="margin">
+      <a id="choose-section">
+        <div class="choose-section">
+          <p class="h2 choose-h2">
+            Which Common Entrance Test You are Preparing For?
+          </p>
+          <br />
+          <p class="h4 text-center">Prepare For UG Courses</p>
+          <div class="card-group choose-card-group">
+            <div class="card choose-card">
+              <div class="card-body choose-card-body">
+                <h5 class="card-title choose-card-title">BCA</h5>
+                <p class="card-text">Suitable For GGSIP</p>
+                <a
+                  href="#"
+                  class="btn btn-mcq btn-bca"
+                  data-bs-toggle="modal"
+                  data-bs-target="#bca"
+                  >Browse Practice Questions</a
+                >
+              </div>
+            </div>
+            <div class="card choose-card">
+              <div class="card-body choose-card-body">
+                <h5 class="card-title choose-card-title">BBA</h5>
+                <p class="card-text">Suitable For GGSIP</p>
+                <a
+                  href="#"
+                  class="btn btn-mcq"
+                  data-bs-toggle="modal"
+                  data-bs-target="#bba"
+                  >Browse Practice Questions</a
+                >
+              </div>
+            </div>
+            <div class="card choose-card">
+              <div class="card-body choose-card-body">
+                <h5 class="card-title choose-card-title">BCOM</h5>
+                <p class="card-text">Suitable For GGSIP</p>
+                <a
+                  href="#"
+                  class="btn btn-mcq"
+                  data-bs-toggle="modal"
+                  data-bs-target="#bcom"
+                  >Browse Practice Questions</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <br /><b></b>
+    <!-- service section -->
+
+    <!-- university image card -->
+    <div class="margin">
+      <p class="h2 text-center">
+        Practice Questions Suitable For These Universities:
+      </p>
+      <br />
+      <br />
+      <!-- first row -->
+      <div class="first-row">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/ggsip.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/du.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/nit.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/ggsip.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/ggsip.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/ggsip.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/ggsip.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/ggsip.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card uni-card">
+              <div class="card-body uni-card-body">
+                <img src="./images/ggsip.png" alt="" class="img-top" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- first row -->
+    </div>
+    <br /><br />
+    <!-- university image card -->
+
+    <!-- footer -->
+    <footer>
+      <br />
+      <p class="h6 text-center">&#169; ALL RIGHT RESERVED</p>
+      <br />
+    </footer>
+    <!-- footer -->
+
+    <!-- modals -->
+    <!-- bca modal -->
+    <div
+      class="modal fade"
+      id="bca"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              Study Material For:
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Computer & IT</h5>
+                <br />
+                <a href="https://bca.entrancejugaad.com/computer/index.html"
+                  ><button class="btn btn-primary">View MCQ</button></a
+                >
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Maths</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">General Knowledge</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">English</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Logical Reasoning</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bca modal -->
+    <!-- bba modal -->
+    <div
+      class="modal fade"
+      id="bba"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              Study Material For:
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Computer & IT</h5>
+                <br />
+                <a href="./bca/computer1.html"
+                  ><button class="btn btn-primary">View MCQ</button></a
+                >
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Maths</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">General Knowledge</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">English</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Logical Reasoning</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bba modal -->
+    <!-- bcom modal -->
+    <div
+      class="modal fade"
+      id="bcom"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">
+              Study Material For:
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Computer & IT</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Maths</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">General Knowledge</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">English</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+            <div class="card modal-card">
+              <div class="card-body">
+                <h5 class="modal-title">Logical Reasoning</h5>
+                <br />
+                <a href=""><button class="btn btn-primary">View MCQ</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- bcom modal -->
+    <!-- modals -->
+    <!-- carousel script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- carousel script -->
+    <!-- slider js -->
+    <script type="text/javascript">
+      $(function () {
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          items: 4,
+          margin: 10,
+          loop: true,
+          nav: true,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: true,
+            },
+            600: {
+              items: 1,
+              nav: false,
+            },
+            700: {
+              items: 2,
+              nav: false,
+            },
+            1000: {
+              items: 3,
+              nav: true,
+              loop: false,
+            },
+          },
+        });
+      });
+    </script>
+    <!-- slider js -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./suggestions.js"></script> 
+     <script src="./script.js"></script> 
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

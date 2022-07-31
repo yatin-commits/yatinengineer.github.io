@@ -1,0 +1,100 @@
+body{
+    font-family: poppins;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #112D4E;
+}
+
+.navbar-toggler {
+    background-color: #112D4E;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.dropdown-menu {
+    background-color: #112D4E;
+}
+
+.navbar-nav .active {
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media(max-width:991px){
+    .nav-link:hover {
+        border-bottom: none;
+    }
+    .navbar-nav .active {
+        border-bottom: none;
+    }
+    
+    .navbar-nav ul li a:hover {
+        border-bottom: none;
+    }
+}
+
+.dropdown-menu > li a:hover
+{ 
+    background: transparent;
+    border-bottom: none !important;
+}
+/* navbar */
+
+
+/* margin */
+.margin {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* margin */
+
+/* top con */
+.top-p{
+    text-align: center;
+}
+
+.mcq-btn{
+    background-color: #0066da;
+    color: white;
+}
+
+.mcq-btn:hover{
+    background-color: #112D4E;
+    color: white;
+}
+.mcq-card{
+    margin: 20px;
+}
+
+.mcq-card-body{
+    border-radius: 10px;
+    background-color: #538ed6;
+    color: white;
+    text-align: center;
+}
+
+/* top con */
+
+/* footer */
+footer{
+    background-color: #112D4E;
+    color: white;
+}
+/* footer */

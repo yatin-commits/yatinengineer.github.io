@@ -1,0 +1,151 @@
+body{
+    font-family: poppins;
+}
+#preloader{
+    background: white url(./images/newloader.gif) no-repeat center;
+    background-size: 35%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* display: none; */
+}
+/* navbar */
+
+.navbar {
+    background-color: #112D4E;
+}
+
+.navbar-toggler {
+    background-color: #112D4E;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.dropdown-menu {
+    background-color: #112D4E;
+}
+
+.navbar-nav .active {
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media(max-width:991px){
+    .nav-link:hover {
+        border-bottom: none;
+    }
+    .navbar-nav .active {
+        border-bottom: none;
+    }
+    
+    .navbar-nav ul li a:hover {
+        border-bottom: none;
+    }
+}
+
+.dropdown-menu > li a:hover
+{ 
+    background: transparent;
+    border-bottom: none !important;
+}
+/* navbar */
+
+/* margin */
+.margin {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* margin */
+
+
+/* top part */
+
+.form-contact{
+    margin-top: 20%;
+}
+
+input[type=text]{
+    width: 400px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #112D4E;
+}
+input[type=email]{
+    width: 400px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #112D4E;
+}
+textarea{
+    width: 400px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #112D4E;
+}
+
+input[type=submit]{
+    background-color: #3F72AF;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+
+@media (max-width:767px){
+    .form-contact{
+        text-align: center;
+        margin-top: 0;
+    }
+    input[type=text]{
+        width: 300px;
+    }
+    input[type=email]{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
+    }
+}
+/* top part */
+
+
+/* footer */
+footer{
+    background-color: #112D4E;
+    color: white;
+}
+/* footer */
+
+.tick{
+    width: auto;
+}
+.box{
+    height: 400px;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

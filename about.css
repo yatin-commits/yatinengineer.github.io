@@ -1,0 +1,239 @@
+body{
+    font-family: poppins;
+}
+#preloader{
+    background: white url(./images/newloader.gif) no-repeat center;
+    background-size: 35%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /* display: none; */
+}
+/* navbar */
+.about-p{
+    text-align: justify;
+}
+
+.navbar {
+    background-color: #112D4E;
+}
+
+.navbar-toggler {
+    background-color: #112D4E;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+
+.dropdown-menu {
+    background-color: #112D4E;
+}
+
+.navbar-nav .active {
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: 'Trispace', sans-serif;
+    flex-wrap: wrap;
+}
+
+.person{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.coder-image{
+    border-radius: 50%;
+}
+
+.clg{
+    font-size:30px;
+    padding-left: 20px;
+}
+
+.meet{
+    font-family: 'Nunito', sans-serif;
+    padding: 30px;
+    font-size: 30px;
+}
+@media(max-width:991px){
+    .nav-link:hover {
+        border-bottom: none;
+    }
+    .navbar-nav .active {
+        border-bottom: none;
+    }
+    
+    .navbar-nav ul li a:hover {
+        border-bottom: none;
+    }
+}
+
+.dropdown-menu > li a:hover
+{ 
+    background: transparent;
+    border-bottom: none !important;
+}
+/* navbar */
+
+/* margin */
+.margin {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* margin */
+
+/* profile */
+.mtt{
+    text-align: center;
+}
+
+.img-thumbnail {
+    border: 1px solid #112D4E;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+.about-head{
+    font-size: 60px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: underline ;
+    padding: 0px 0px 0px px;
+   
+}
+.tagline{
+    font-family: 'Sora', sans-serif;
+    padding: 40px;
+    font-size: 30px;
+
+}
+
+.moto
+{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 20px;
+    flex-wrap: wrap;
+}
+.motologo{
+    height: 150px;
+}
+.about-moto{
+    font-size: 60px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: underline ;
+    padding: 0px 0px 0px 20px;
+    text-align: right;
+    flex-wrap: wrap;
+   
+}
+
+.about-who{
+    font-size: 60px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: underline ;
+    padding: 0px 0px 0px 00px;
+    text-align: left;
+    flex-wrap: wrap;
+   
+}
+.about-about{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    padding: 20px;
+    /* font-size: 15px; */
+}
+
+
+
+
+/* .social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #112D4E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+} */
+
+.social-link{
+    background-color: white;
+    text-decoration: none;
+}
+
+.team-card{
+    transition: 0.3s;
+    border: 2px solid #112D4E;
+    background-color: rgb(233, 224, 224);
+}
+
+.team-card:hover{
+    color: white;
+    background-color: #3F72AF;
+    -webkit-transform: translate(0, -20px);
+    transform: translate(0, -20px);
+}
+.profile-card{
+   margin-left: 25%;
+}
+
+.yash-card-title{
+    margin-bottom: 38px;
+}
+
+@media (max-width:1199px){
+    .profile-card{
+        margin-left: 0;
+    }
+    .yash-card-title{
+        margin-bottom: 0;
+    }
+}
+
+/* profile */
+
+
+/* footer */
+footer{
+    background-color: #112D4E;
+    color: white;
+}
+/* footer */
+
+@media screen and (min-device-width: 100px) and (max-device-width: 400px) { 
+    .about-who,.about-moto,.about-head{
+        text-align: center;
+    }
+}
